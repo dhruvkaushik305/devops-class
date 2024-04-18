@@ -9,7 +9,7 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
   node-app:
     build: .
-    # image: ravisqb/crud-docker
+    image: dhruvkaushik/devops-class
     # ports:
     #   - "3000:3000"
     environment:
